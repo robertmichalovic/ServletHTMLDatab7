@@ -1,0 +1,72 @@
+/*====================================== reset.css is here ========================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;outline:none;}
+table {	border-collapse:collapse; border-spacing:0;}
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal;}
+ol,ul { list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {	font-size:100%;	font-weight:bold;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+.clear{clear:both; font-size:0px;line-height:0px; display:block;}
+.last	{margin:0 !important;}
+.pad_last{padding:0 !important;}
+.no_bg {background:none !important;}
+/**************************************************************************************/
+a											{color:#000; text-decoration:none; outline:0 none;}
+a:hover										{color:#000;  text-decoration:none;}
+h1											{font-size:24px;}
+h2											{font-size:22px;}
+h3											{font-size:18px;}
+h4											{font-size:16px;}
+h5											{font-size:14px;}
+h6											{font-size:12px;}
+/*----------------------------------------------------------------------------------*/
+html 										{}
+body										{color:#b1b1b1; font-family:"Arial", Verdana, Tahoma; font-size:12px; background:#f4f4f4;}
+.flt_lt										{float:left; display:inline;}
+.flt_rt										{float:right; display:inline;}
+/* ---------------------------------------------------------------------------------*/
+
+
+/* ----------------------- layout ----------*/
+.wrapper									{margin:0 auto; min-width:980px;}
+
+.main_content								{}
+/* ------------------ HEADER HERE -------------------*/
+.header										{ width:100%; background:#8f9d45;}
+.header-container							{ width:980px; margin:0 auto; padding:22px 0;}
+.header-container .logo						{ display:inline-block; float:left; padding:0 0 0 34px;}
+.header-container .aNadpis					{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:38px; color:#ffffff; font-weight:normal; display:block;text-shadow: 1px 1px #ff0000;}
+.header-container .toll-free				{ display:inline-block; float:right; padding:20px 27px 0 0;}
+.header-container .toll-free p				{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px; color:#ffffff; font-weight:normal; display:inline-block;}
+/*-------------------------------------------*/
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+.nav										{ width:100%; background:url(../images/nav-bg.jpg) repeat-x; }
+.nav-in										{ width:850px;margin:0 auto;}
+.nav-in ul									{ margin:0 auto;}
+.nav-in ul li								{ float:left; display:inline-block; background:url(../images/nav-li-bg.png) no-repeat right center; padding:16px 37px 16px 0; margin:0 0 0 41px;}
+.nav-in ul li a								{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:normal; font-size:16px; color:#ffffff; display:inline-block; }
+.nav-in ul li a span						{}
+.nav-in ul li a:hover						{}
+.ped										{ padding-right:0 !important;}
+/* ---------------------------------------------------------*/
+
+/* ------------------------ MIAN CONTENT HERE --------------*/
+.container									{ width:980px; height:1000px; margin:0 auto; padding:24px 0 24px 0; background:#ffffff;}
+
+/* ---------------------------------------------------------*/
+
+/* ------------------ FOOTER HERE --------------------------*/
+.footer										{ width:100%; background:#333333;}
+.footer-in									{ width:980px; margin:0 auto; padding:36px 0 36px 0;}
+.social-icons								{ float:left; padding:0 0 0 28px; display:inline-block;}
+.social-icons ul							{ float:left; display:inline-block;}
+.social-icons ul li							{ float:left; display:inline-block; margin:0 10px 0 0;}
+.social-icons ul li a						{ display:block;}
+.copy										{ float:right; display:inline-block; padding:0 15px 0 0;}
+.copy p										{ font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:11px; color:#999999; display:inline-block;}
+.copy a										{ font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:11px; color:#999999; display:inline-block;text-decoration:underline;}
+.copy a:hover								{ text-decoration:none;}
+/* ---------------------------------------------------------*/
